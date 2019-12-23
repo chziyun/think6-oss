@@ -1,0 +1,28 @@
+{
+    "name": "chziyun/think6-oss",
+    "description": "thinkphp6文件上传oss整合",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0",
+        "aliyuncs/oss-sdk-php": "^2.3",
+        "qiniu/php-sdk": "^7.2"
+    },
+    "keywords": [
+        "thinkphp6",
+        "oss"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chaizhijun",
+            "email": "353325487@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "chziyun\\": "src/"
+        }
+    }
+}
