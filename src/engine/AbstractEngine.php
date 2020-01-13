@@ -49,7 +49,7 @@ abstract class AbstractEngine
      */
     public function buildSaveName()
     {
-        return date('Ymd') . '/' . date('Ymd') . DS . date('YmdHis') . substr(md5($this->file->getRealPath()), 0, 5)
+        return date('Ymd') . '/' . date('YmdHis') . substr(md5($this->file->getRealPath()), 0, 5)
             . str_pad(rand(0, 9999), 4, '0', STR_PAD_LEFT) . '.' . $this->file->extension();
     }
 }
